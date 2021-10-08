@@ -25,7 +25,11 @@ monitors:
   - type: memory
   - type: collectd/protocols
   - type: collectd/kafka_producer
+    host: vpce.bro.gcl.prd.nsp.nike.com
+    port: 9300
   - type: collectd/kafka_consumer
+    host: vpce.bro.gcl.prd.nsp.nike.com
+    port: 9300
   - type: vmem
 
   - type: ecs-metadata
